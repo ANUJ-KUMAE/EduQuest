@@ -23,9 +23,12 @@ Contact:
 
 ![Contact](https://github.com/ANUJ-KUMAE/EduQuest/assets/119961686/f584def0-1845-4ad0-afea-e7c7bd559f1b)
 
+
 ![contact2](https://github.com/ANUJ-KUMAE/EduQuest/assets/119961686/39258715-62f9-4bba-b580-616311099c9e)
 
+
 ![contact3](https://github.com/ANUJ-KUMAE/EduQuest/assets/119961686/d61add13-ac2b-4a1d-bee4-5f9105ccb259)
+
 
 Footer: 
 
