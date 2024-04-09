@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css1/text.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f80c6ea538.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Navigation-->
+    <nav>
+      <img src="./image/Eduquest.png" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="mark" class="bi bi-x-lg"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Courses.html">Courses</a></li>
+          <li><a class="active" href="Contact.html">Contact</a></li>
+        </ul>
+        <button id="img1"><i class="bi bi-list"></i></button>
+      </div>
+    </nav>
+
+    <!--Home-->
+    <section id="fill-form">
+      <h2>Contact Us</h2>
+    </section>
+
+    <section id="create-form">
+      <div class="about-contact">
+        <div class="heading">
+          <div class="my-contactlogo">
+           <div class="contact-name">
+            <h4>Contact info</h4>
+           </div>
+            <div class="headind-info">
+              <i class="bi bi-geo-alt" id="location"></i>
+              <p>chennai</p>
+            </div>
+            <div class="headind-info">
+              <i class="bi bi-envelope-at" id="email"></i>
+              <p>eduquest0405@gmail.com</p>
+            </div>
+            <div class="headind-info">
+              <i class="bi bi-telephone" id="phone"></i>
+              <p>310-386-1086</p>
+            </div>
+            <div class="my-icon">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://twitter.com/i/flow/login?lang=en" target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/" target="_blank">
+                <i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="All-contact-logo">
+            <img src="./image/contact.png" />
+          </div>
+        </div>
+        <div class="form-lists">
+          <form action="https://formspree.io/f/xeqypgyk" method="post">
+            <div class="form-data">
+              <input
+                type="text"
+                placeholder=" Full Name"
+                required
+                id="f-name"
+              />
+              <!-- <input type="text" placeholder="Last Name" required id="f-name"> -->
+            </div>
+            <div class="form-data">
+              <input type="text" placeholder="Email" required id="e-form" />
+            </div>
+            <div class="form-data">
+              <textarea
+                id="s-form"
+                placeholder="Write your Message Here"
+                rows="6"
+              ></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit" class="btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="full-form"></div>
+    </section>
+
+    <footer id="foot1">
+      <div class="center">
+        copyright &copy; www.EduQuest.com. All rights reserved!
+      </div>
+    </footer>
+    <script>
+      $("#img1").click(function () {
+        $("nav ul").addClass("active");
+      });
+      $("#mark").click(function () {
+        $("nav ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
